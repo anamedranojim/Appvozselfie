@@ -19,7 +19,7 @@ recognition.onresult = function (event){
 
     Textbox.innerHTML = Content;
 
-    if(Content == "Viva Mexico"){
+    if(Content == "Viva México"){
         console.log("lo lograste, Viva México")
         speak();
     }
